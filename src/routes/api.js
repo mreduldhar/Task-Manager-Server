@@ -14,7 +14,6 @@ router.post('/login', userController.login)
 router.post('/profile-update',requireSignIn, userController.profileUpdate)
 
 
-
 // Task CRUD
 router.post('/createTask/:id', requireSignIn, taskController.createTask)
 router.delete('/deleteTask/:id', requireSignIn, taskController.deleteTask)

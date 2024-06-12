@@ -3,9 +3,6 @@ const express = require("express");
 const app = express();
 const router = require("./src/routes/api");
 
-// require dotenv 
-require('dotenv').config()
-
 // Middleware library import
 const cors = require("cors");
 const hpp = require("hpp");
